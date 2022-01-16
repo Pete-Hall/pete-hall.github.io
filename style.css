@@ -2,7 +2,24 @@ body {
   background-color: #ffffff;
   color: #000000;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  margin: 10% 20%;
+  margin-top: 5%;
+	margin-left: 10%;
+	margin-right:10%
+}
+
+.info-block{
+	text-align:center;
+	border:1px black solid;
+}
+
+.betteryou-logo{
+	width: 30px;
+	margin-bottom: -6px;
+}
+
+.mac-logo{
+	width: 20px;
+	margin-right: 4px;
 }
 
 .exp-header{
@@ -15,29 +32,39 @@ body {
   background-image:linear-gradient(darkblue, #0050f5);
 }
 
-.info-block{
-	text-align:center;
-}
-
-img{
-	width: 30px;
-	margin-bottom: -6px;
-
-}
-
-.mac-logo{
-	width: 20px;
-	margin-right: 4px;
-}
-
 h1{
 	font-size: 40px;
+	border:1px black solid;
 }
 
 h3{
-	font-size: 20px
+	font-size: 20px;
+	border:1px black solid;
+	margin-bottom: 0%;
+}
+
+h4{
+	border:1px black solid;
+	display:inline-block;
+	margin-bottom:0%;
+}
+
+h5{
+	float: right;
+	border:1px black solid;
 }
 
 .tidbit{
+	font-size: small;
 	font-style: italic;
+	border:1px black solid;
+	clear: right;
+}
+
+ul{
+	border:1px black solid;
+}
+
+li{
+	margin-bottom:5px
 }
