@@ -1,4 +1,4 @@
-body {
+\body {
   background-color: #ffffff;
   color: #000000;
   font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -9,10 +9,10 @@ body {
   text-align: center;
   text-transform: uppercase;
 	color: #ffffff;
-  border-top:1px solid white;
-  border-bottom: 1px solid blue;
+  border-top:1px solid darkblue;
+  border-bottom: 1px solid #0050f5;
 	border-radius: 20px;
-  background-image:linear-gradient(lightblue, #0050f5 );
+  background-image:linear-gradient(darkblue, #0050f5);
 }
 
 .info-block{
