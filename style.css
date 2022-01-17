@@ -1,4 +1,4 @@
-/*used for a lot of additional learning: https://www.w3schools.com/ */
+/* used for a lot of additional learning: https://www.w3schools.com/ */
 
 body {
   background-color: #ffffff;
@@ -18,7 +18,7 @@ body {
 	width:15%;
 	padding: 1%;
 	border-radius:200px;
-	background: linear-gradient(to right,#fc00ff,#00dbde); /*https://getbutterfly.com/css-rounded-corners-gradient-border/*/
+	background: linear-gradient(to right,#fc00ff,#00dbde); /* https://getbutterfly.com/css-rounded-corners-gradient-border/ */
 }
 
 .betteryou-logo{
@@ -39,7 +39,7 @@ body {
   border-top:1px solid white;
   border-bottom: 1px solid white;
 	border-radius: 20px;
-  background-image:linear-gradient(to right,#fc00ff,#00dbde); /*https://uigradients.com/#Timber*/
+  background-image:linear-gradient(to right,#fc00ff,#00dbde); /* https://uigradients.com/#Timber */
 }
 
 h1{
@@ -75,7 +75,7 @@ li{
 .flex-container{
 	display:flex;
 	justify-content:space-between;
-	align-items: baseline; /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+	align-items: baseline; /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 	flex-wrap:wrap;
 }
 
