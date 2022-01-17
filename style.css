@@ -1,70 +1,88 @@
+/*used for a lot of additional learning: https://www.w3schools.com/ */
+
 body {
   background-color: #ffffff;
   color: #000000;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   margin-top: 5%;
-	margin-left: 10%;
-	margin-right:10%
+	margin-left: 13%;
+	margin-right:13%
 }
 
 .info-block{
 	text-align:center;
-	border:1px black solid;
+}
+
+.headshot{
+	width:15%;
+	padding: 1%;
+	border-radius:200px;
+	background: linear-gradient(to right,#fc00ff,#00dbde); /*https://getbutterfly.com/css-rounded-corners-gradient-border/*/
 }
 
 .betteryou-logo{
-	width: 30px;
+	width: 25px;
 	margin-bottom: -6px;
 }
 
 .mac-logo{
-	width: 20px;
+	width: 18px;
 	margin-right: 4px;
+	margin-bottom: -6px;
 }
 
 .exp-header{
   text-align: center;
   text-transform: uppercase;
 	color: #ffffff;
-  border-top:1px solid darkblue;
-  border-bottom: 1px solid #0050f5;
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
 	border-radius: 20px;
-  background-image:linear-gradient(darkblue, #0050f5);
+  background-image:linear-gradient(to right,#fc00ff,#00dbde); /*https://uigradients.com/#Timber*/
 }
 
 h1{
 	font-size: 40px;
-	border:1px black solid;
+	margin-top:0%;
+	margin-bottom:0%;
 }
 
 h3{
 	font-size: 20px;
-	border:1px black solid;
-	margin-bottom: 0%;
-}
-
-h4{
-	border:1px black solid;
-	display:inline-block;
-	margin-bottom:0%;
-}
-
-h5{
-	float: right;
-	border:1px black solid;
 }
 
 .tidbit{
 	font-size: small;
 	font-style: italic;
-	border:1px black solid;
-	clear: right;
 }
 
-ul{
-	border:1px black solid;
+h4{
+	color: #fc00ff
 }
 
 li{
 	margin-bottom:5px
+}
+
+.contact{
+	margin-top:1%;
+	margin-bottom:1%
+}
+
+/*https://www.w3schools.com/css/css3_flexbox.asp*/
+
+.flex-container{
+	display:flex;
+	justify-content:space-between;
+	align-items: baseline; /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+	flex-wrap:wrap;
+}
+
+.flex-item{
+	margin:1px;
+}
+
+.flex-item-right{
+	margin:1px;
+	text-align:right;
 }
